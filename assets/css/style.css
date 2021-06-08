@@ -252,7 +252,7 @@ footer {
 /* for large to medium screens sizes from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-    @culb-ethos {
+    #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -272,6 +272,13 @@ footer {
         width: 100%;
         float: left;
         padding: o;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
     }
 
     hr {
